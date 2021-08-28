@@ -1,9 +1,59 @@
 
+body{
+    font-family: "Arial", "sans-serif";
+    text-align: left;
+    margin-left: 15%;
+    padding: 30px;
+    background-image: linear-gradient(
+      50deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png);
+  
+     background-size: cover;
+     height: 100%;
+}
+
+#h1{
+    width: 75%;
+    text-align: center;
+    letter-spacing: 0.2em
+}
+
+.main-section li {
+    font-weight: bolder;
+
+}
+
 #navbar {
     position: fixed;
     top: 0px;
     left: 0px;
+    width: 15%;
+    height: 100%;
+    border-right: solid;
+    border-color: blue;
+    background-color: rgb(124, 124, 223);
 }
+
+  #navbar a {
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  #navbar header {
+    color: black;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 0.2em
+  }
 
 @media only screen and (max-width: 480px) {
     body {
